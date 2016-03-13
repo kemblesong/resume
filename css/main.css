@@ -55,7 +55,9 @@ p {
   color: #ff6666;
 }
 
-
+.mint {
+  color: #66ffb3;
+}
 
 @media screen and (min-width: 720px) {
   .container {

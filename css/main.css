@@ -1,11 +1,11 @@
 body {
-  font-size: 62.5%;
+  font-size: 50%;
   font-family: "Open Sans", sans-serif;
   font-weight: 300
 }
 
 h1 {
-  font-size: 7.2em;
+  font-size: 6.4em;
   font-weight: 300;
   color: #3d3d5c;
 }
@@ -20,7 +20,7 @@ p {
 }
 
 .container {
-  width: 100%;
+  width: 90%;
   margin: 0 auto;
   padding: 3em 1.5em;
 }
@@ -29,6 +29,7 @@ p {
   width: 40em;
   height: 20em;
   margin: -4em 0;
+  display: none;
 }
 .line > div:first-child {
   height: 100%;
@@ -59,9 +60,23 @@ p {
   color: #66ffb3;
 }
 
+.peace {
+  margin: 0 auto;
+  width: 40px;
+}
+
 @media screen and (min-width: 720px) {
+  .line {
+    display: block;
+  }
+  body {
+    font-size: 62.5%;
+  }
   .container {
     width: 600px;
+  }
+  .peace {
+    margin-left: 178px;
   }
 }
 

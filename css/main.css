@@ -1,13 +1,16 @@
 body {
   font-size: 50%;
   font-family: "Open Sans", sans-serif;
-  font-weight: 300
+  font-weight: 300;
+  background: #3d3d5c;
+  color: #ccc;
 }
 
+h2,
 h1 {
   font-size: 6.4em;
   font-weight: 300;
-  color: #3d3d5c;
+  margin: 2.6em 0 0 0;
 }
 
 
@@ -16,7 +19,7 @@ p {
 }
 
 .heading {
-  margin-top: 100px;
+  margin-bottom: 2.5em;
 }
 
 .container {
@@ -26,9 +29,8 @@ p {
 }
 
 .line {
-  width: 40em;
+  width: 35em;
   height: 20em;
-  margin: -4em 0;
   display: none;
 }
 .line > div:first-child {
@@ -39,9 +41,8 @@ p {
 }
 
 .box {
-  margin: 60px 0;
+  margin: 4em 0;
   font-size: 3.6em;
-  color: #3d3d5c;
 }
 
 .peach {
@@ -76,7 +77,7 @@ p {
     width: 600px;
   }
   .peace {
-    margin-left: 178px;
+    margin-left: 10rem;
   }
 }
 
